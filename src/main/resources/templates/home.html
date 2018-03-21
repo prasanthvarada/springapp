@@ -35,8 +35,8 @@
         <div class="col-md-12 col-lg-6">
             <form th:object="${insertRecord}" method="POST">
                 <div class="form-group">
-                    <label for="data">To-Do List to insert</label>
-                    <input id="data" type="text" class="form-control" placeholder="Lorem ipsum" th:field="*{data}" />
+                    <label for="data"> <font color="blue">To-Do List to insert - updated version </font> </label>
+                    <input id="data" type="text" class="form-control" th:field="*{data}" />
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
