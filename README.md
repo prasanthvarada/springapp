@@ -1,1 +1,1 @@
-# springboot-sample-app
+# sample spring-boot springapp
